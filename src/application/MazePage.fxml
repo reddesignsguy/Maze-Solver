@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="44.0" prefWidth="600.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <ToolBar prefHeight="40.0" prefWidth="600.0" style="-fx-background-color: #30262d;" AnchorPane.rightAnchor="0.0">
+              <items>
+                <Button fx:id="exit" mnemonicParsing="false" onAction="#exitMaze" text="Exit" />
+                  <Button fx:id="clear" mnemonicParsing="false" onAction="#clear" text="Clear" translateX="10.0" />
+                  <AnchorPane prefHeight="30.0" prefWidth="413.0">
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                     <children>
+                        <Label fx:id="shortestPathLabel" alignment="CENTER" layoutX="156.0" layoutY="7.0" prefHeight="17.0" prefWidth="166.0" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="156.0" AnchorPane.rightAnchor="111.0" AnchorPane.topAnchor="7.0" />
+                     </children>
+                  </AnchorPane>
+              </items>
+            </ToolBar>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane maxHeight="525.0" maxWidth="525.0" minHeight="25.0" minWidth="25.0" prefHeight="50.0" prefWidth="534.0" style="-fx-background-color: black; -fx-background-radius: 10;" BorderPane.alignment="CENTER">
+         <children>
+            <Canvas fx:id="mazeCanvas" height="500.0" width="500.0" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="12.0" />
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+   </center>
+</BorderPane>

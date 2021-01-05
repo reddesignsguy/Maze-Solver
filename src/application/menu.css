@@ -1,0 +1,45 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{
+	dark-primary-color: #7B1FA2; 
+	default-primary-color: #9C27B0;
+	light-primary-color: #E1BEE7; 
+	text-primary-color: #FFFFFF; 
+	accent-color : #9E9E9E; 
+	primary-text-color: #212121; 
+	secondary-text-color: #757575;
+	divider-color: #BDBDBD; 
+	
+	-fx-background-color: default-primary-color;
+}
+
+.menuButton:pressed:hover {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+    -fx-font-weight: bold;
+}
+.menuButton:hover {
+	-fx-background-color: rgba(20,20,20,1);
+	-fx-border-color: rgba(0,0,0,1);
+	-fx-background-color:  white;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+}
+
+.menuButton{
+	-fx-font-family: "Coolvetica Rg";
+	-fx-font-size: 30;
+	-fx-font-weight: bold;
+	-fx-background-color:  linear-gradient(to right top, #540062, #82006b, #af006e, #d9006a, #ff1c61);
+	-fx-background-color:  black;
+	-fx-border-color: transparent;
+	-fx-text-fill: white;
+}
+
+.title{
+		-fx-font-family: "Coolvetica Rg";
+		-fx-font-color: white;
+		-fx-font-weight: bold;
+		-fx-font-size: 80;
+		-fx-font-smoothing-type: gray;
+}

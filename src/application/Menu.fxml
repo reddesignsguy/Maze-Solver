@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to left bottom, #4e4e4e, #404040, #333333, #262626, #1a1a1a);;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="37.0" layoutY="28.0" prefHeight="547.0" prefWidth="539.0" style="-fx-background-color: linear-gradient(to right top, #f8f8f8, #c5c5c5, #949494, #666666, #3b3b3b);; -fx-background-radius: 15;" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
+         <children>
+            <AnchorPane layoutX="27.0" layoutY="225.0" AnchorPane.bottomAnchor="241.0" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="225.0">
+               <children>
+                  <Button fx:id="start" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#start" prefHeight="84.0" prefWidth="251.0" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-border-width: 2;" styleClass="menuButton" text="Start" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+                     <font>
+                        <Font name="Yu Gothic Regular" size="26.0" />
+                     </font>
+                     <effect>
+                        <DropShadow color="#3c3c3c" offsetX="2.0" offsetY="2.0" />
+                     </effect>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <Pane layoutX="235.0" prefHeight="141.0" prefWidth="252.0" style="-fx-background-color: #1F1F1F;" />
+            <Pane layoutY="10.0" prefHeight="150.0" prefWidth="457.0" style="-fx-background-color: #1F1F1F;" />
+            <AnchorPane prefHeight="160.0" prefWidth="487.0" style="-fx-background-color: #1F1F1F; -fx-background-radius: 15;">
+               <children>
+                  <Label alignment="CENTER_RIGHT" layoutX="1.0" layoutY="15.0" prefHeight="125.0" prefWidth="430.0" styleClass="title" text="Maze Solver" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="79.0" />
+                     </font>
+                  </Label>
+               </children>
+               <effect>
+                  <DropShadow color="#3c3c3c" offsetX="2.0" offsetY="2.0" />
+               </effect>
+            </AnchorPane>
+         </children>
+         <effect>
+            <DropShadow />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>
