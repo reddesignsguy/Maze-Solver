@@ -5,7 +5,7 @@ Features:
 - Able to generate a square maze of sizes 2x2 to 50x50
 - Able to highlight the shortest path from the start to any point you choose
 - Able to see the maze being created
-- 
+
 
 Tools used:
 - Java
