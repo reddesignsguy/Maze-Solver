@@ -9,6 +9,7 @@ Features:
 
 Tools used:
 - Java
+- CSS
 - JavaFX module: Responsible for  user interface and graphics
 
 Implementation:
