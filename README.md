@@ -2,7 +2,7 @@
 MaveSolver is a maze generation and solver app! 
 
 Features:
-- Able to generate a square maze of sizes 2x2 to 50x50
+- Able to generate a square maze of sizes 2x2 to 50x50 tiles
 - Able to highlight the shortest path from the start to any point you choose
 - Able to see the maze being created
 
